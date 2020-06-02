@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>JavaScript Function Library</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="/style.css" />
+   </head>
+
+   <body>
+      <div class="container">
+         <div class="row mt-2">
+            <div class="col-12">
+               <h1 class="d-flex justify-content-center">
+                  JavaScript Functions: Basic
+               </h1>
+               <p class="text-center lead mb-4">
+                  <span id="totalFunctionNum"></span> functions documented
+               </p>
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>standInLine</b> - find who's next in line
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>listVar</b> - add a new food to our food list (Food,
+                     Quantity)
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>unshiftVar</b> - add new a breakfast item to list, "run"
+                     will return new list and replace user input with the first
+                     item of the list ("omelete", "waffles", "french toast",
+                     "pancakes")
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>shiftVar</b> - add new fruit to list, "run" will return
+                     new list and remove the first food in the list ("chicken",
+                     "sausage", "pork", "steak")
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>popVar</b> - add new fruit to list, "run" will return
+                     new list and remove the fruit at the end of the list
+                     ("bananas", "apples", "limes", "strawberry")
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>pushVar</b> - type a NBA team to have it pushed into
+                     Array
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column  -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>nthToLastLetter</b> - will return the nth-to-last letter
+                     in each word (Can you figure out which letter?) (Minimum -
+                     5 letters)
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>lastLetter</b> - will return the last character in each
+                     word
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column  -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>nthLetter</b> - will return the nth letter in each word
+                     (Can you figure out which letter?) (Minimum - 5 letters)
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>firstLetter</b> - will return the first letter in each
+                     word (play around to create new word)
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>findLength</b> - will return the character length of
+                     each input
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>constructString</b> - will add favorite fruit to string
+                     "My favorite fruit is a/an... because it is delicious."
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>concatenatePlusEquals</b> - will concatenate the first
+                     string (Name) to second existing string
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>concatenate</b> - will concatenate the two inputs
+                     together (First box = adjective, Second box = noun)
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>divDecimal</b> - divides three decimal numbers
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name"><b>multiDecimal</b> - mutiplies decimals</p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>decrement</b> - subtracts one to existing number
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>increment</b> - adds one to existing number
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>divide</b> - Divides the 2 values to equal quotient
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>multiply</b> - Multiplies 3 values together
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name"><b>subtract</b> - Subtract the two values</p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name"><b>add</b> - Add two values together</p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+            </div>
+         </div>
+      </div>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+         defer
+      ></script>
+      <script src="/functions.js" defer></script>
+      <script src="/utils.js" defer></script>
+      <script src="/ui.js" defer></script>
+   </body>
+</html>
