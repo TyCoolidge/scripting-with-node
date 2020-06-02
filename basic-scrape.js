@@ -17,7 +17,8 @@ const components2 = getComponents(sourceFileIntermediate);
 const components3 = getComponents(sourceFileFunctional);
 const components4 = getComponents(sourceFileAlgorithm);
 
-const componentsObjs = components.map((component, index) => {
+const componentsObjs = components.reverse().map((component, index) => {
+   //this reverses the object in the array, so the oldest function appears first
    return {
       name: getName(component)[0], // getName takes the parameter of component and creates an array of data, the 0 index allows us to only return the name and nothing else
       desc: trim(getDesc(component)[0]),
@@ -28,7 +29,7 @@ const componentsObjs = components.map((component, index) => {
       order: 100 + index, //specifies index as parameter which increments order number by index
    };
 });
-const componentsIntermediate = components2.map((component, index) => {
+const componentsIntermediate = components2.reverse().map((component, index) => {
    return {
       name: getName(component)[0], // getName takes the parameter of component and creates an array of data, the 0 index allows us to only return the name and nothing else
       desc: trim(getDesc(component)[0]),
@@ -39,7 +40,7 @@ const componentsIntermediate = components2.map((component, index) => {
       order: 200 + index,
    };
 });
-const componentsFunctional = components3.map((component, index) => {
+const componentsFunctional = components3.reverse().map((component, index) => {
    return {
       name: getName(component)[0], // getName takes the parameter of component and creates an array of data, the 0 index allows us to only return the name and nothing else
       desc: trim(getDesc(component)[0]),
@@ -50,7 +51,7 @@ const componentsFunctional = components3.map((component, index) => {
       order: 300 + index,
    };
 });
-const componentsAlgorithm = components4.map((component, index) => {
+const componentsAlgorithm = components4.reverse().map((component, index) => {
    return {
       name: getName(component)[0], // getName takes the parameter of component and creates an array of data, the 0 index allows us to only return the name and nothing else
       desc: trim(getDesc(component)[0]),
