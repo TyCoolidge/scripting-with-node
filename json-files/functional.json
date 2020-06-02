@@ -1,0 +1,128 @@
+[
+   {
+      "name": "someArray",
+      "desc": "type in number to see if it is divisble by 5 to pass true in the array [3, 9, 27, 36]",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 313
+   },
+   {
+      "name": "checkString",
+      "desc": "type in number to see if everything in the array passed the Criteria that num is less than 500.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 312
+   },
+   {
+      "name": "convertToUrl",
+      "desc": "type the numbers between 1-3 to convert strings into URL",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 311
+   },
+   {
+      "name": "joiningString",
+      "desc": "type the numbers between 1-3 to split three different strings and join them together in an array",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 310
+   },
+   {
+      "name": "splittingString",
+      "desc": "type the numbers between 1-3 to split three different strings into arrays",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 309
+   },
+   {
+      "name": "doNotChangeArr",
+      "desc": "type in a number to add to the following array will return [30, 45, 65, 4, -2 , 43] a sorted one without changing the original array",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 308
+   },
+   {
+      "name": "abcOrder",
+      "desc": "type a Capitalized name into to the array [\" Tom\", \" Jim\", \" Emily\", \" Bob\", \" Sam\"] to return a new alphabetical array",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 307
+   },
+   {
+      "name": "complexProblem",
+      "desc": "add a string to the array: [3,\"coding\", 4, \"tyler\", true, 5, null, false,\"cat\",userinput] the strings will get filtered out and mapped into a new array which capitalizes each object.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 306
+   },
+   {
+      "name": "reduceAndAccumulator",
+      "desc": "will find the average of the following array, includes the users input: [3, 4, 5, 6, 7, 8, 35, 67, input]",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 305
+   },
+   {
+      "name": "concatNotPush",
+      "desc": "type in a color to concatenate its array to another the array [Red, Blue]",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 304
+   },
+   {
+      "name": "userConcat",
+      "desc": "type in a number 1-3 to concatenate a new array to the existing one: [\"MJ\", \"Kobe\", \"Lebron\"]",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 303
+   },
+   {
+      "name": "sliceNotSplice",
+      "desc": "type in a number 0-5 to slice consoles from the array [\"PS4\",\" Xbox One\", \"Switch\", \"Wii\", \"Dreamcast\"]",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 302
+   },
+   {
+      "name": "sliceArray",
+      "desc": "Here is the array [\"Curry\", \" Magic\", \" Kyrie\", \" Stockton\", \" Nash\"], type in two numbers to slice the array. First input = slice start point, Second input = end point",
+      "inputs": 2,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 301
+   },
+   {
+      "name": "filteringNumbers",
+      "desc": "type a number to see if it is divisible by 4. This array will also be filtered out to see what numbers are divisible by 4. [44, 16, 12, 64, 9, 33, 36, 15]",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 300
+   }
+]

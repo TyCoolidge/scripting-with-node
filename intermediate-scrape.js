@@ -1,7 +1,9 @@
 const fs = require("fs");
 const { getComponents, getName, getDesc, trim, getInputs } = require("./regex");
 
-const sourceFile = String(fs.readFileSync("html-pages/basic-functions.html"));
+const sourceFile = String(
+   fs.readFileSync("html-pages/intermediate-functions.html")
+);
 
 const components = getComponents(sourceFile);
 
@@ -10,8 +12,8 @@ const componentsObjs = components.map((component) => {
       name: getName(component)[0], // getName takes the parameter of component and creates an array of data, the 0 index allows us to only return the name and nothing else
       desc: trim(getDesc(component)[0]),
       inputs: getInputs(component).length, // returns length or number of inputs for a function
-      type: "basic", // all scraping basic.html
-      typeNum: 100, // basic type
+      type: "intermediate", // all scraping basic.html
+      typeNum: 200, // basic type
       isFavorite: false, // default
    };
 });
@@ -27,6 +29,6 @@ for (let i = 0; i < reversedObjs.length; i++) {
 
 console.log(orderObjs.reverse());
 
-const targetFile = "./json-files/basic.json";
+const targetFile = "./json-files/intermediate.json";
 
 fs.writeFileSync(targetFile, JSON.stringify(orderObjs)); //creates a new file containing this data to the above const

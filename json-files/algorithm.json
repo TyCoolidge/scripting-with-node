@@ -1,0 +1,146 @@
+[
+   {
+      "name": "chunkyMonkeyArray",
+      "desc": "Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 415
+   },
+   {
+      "name": "mutations",
+      "desc": "Return true if the string in the first element of the array contains all of the letters of the string in the second element of the array.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 414
+   },
+   {
+      "name": "sortNumbers",
+      "desc": "Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number. type array in first input",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 413
+   },
+   {
+      "name": "removeFalsy",
+      "desc": "type in an array containing a variety of datatypes, function will remove any falsy values",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 412
+   },
+   {
+      "name": "sliceNSplice",
+      "desc": "Use the array methods slice and splice to copy each element of the first array into the second array, in order, Begin inserting elements at index n of the second array. Type first two inputs as arrays [input],[input2],index",
+      "inputs": 3,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 411
+   },
+   {
+      "name": "titleCase",
+      "desc": "Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 410
+   },
+   {
+      "name": "isABoolean",
+      "desc": "Check if a value is classified as a boolean primitive. Return true or false.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 409
+   },
+   {
+      "name": "findingElement",
+      "desc": "create an Array and see what number passes the truthtest, the new array will take the first number to do so",
+      "inputs": 3,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 408
+   },
+   {
+      "name": "truncateString",
+      "desc": "Truncate a string (first argument) if it is longer than the given maximum string length (second argument).",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 407
+   },
+   {
+      "name": "repeatingArray",
+      "desc": "Repeat a given string str (first argument) for num times (second argument).",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 406
+   },
+   {
+      "name": "confirmTheEnd",
+      "desc": "Check if a string (first argument, str) ends with the given target string (second argument, target).",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 405
+   },
+   {
+      "name": "returnLargestNumber",
+      "desc": "returns the largest number in arrays (user can type in 3 numbers to add to seperate arrays)",
+      "inputs": 3,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 404
+   },
+   {
+      "name": "longestWordString",
+      "desc": "Returns the length of the longest word in the provided sentence.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 403
+   },
+   {
+      "name": "factorialize",
+      "desc": "Return the factorial of the provided integer.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 402
+   },
+   {
+      "name": "reverseAString",
+      "desc": "reverses the users string",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 401
+   },
+   {
+      "name": "convertTemp",
+      "desc": "converts celsius temp to Fahrenheit",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 400
+   }
+]
